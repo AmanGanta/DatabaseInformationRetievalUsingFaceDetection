@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER DATA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        body {
+            text-rendering: optimizeLegibility;
+            color: #555;
+        }
+
+        header {
+            /* background-image: linear-gradient(rgba(50, 49, 51, 0.7), rgba(90, 72, 13, 0.7)), url('https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/artificial-intelligence-AI.jpg'); */
+            /* background-position: top; */
+            /* background-size: cover; */
+            /* background-attachment: fixed; */
+            height: 100vh;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .title1 {
+            color: white;
+            font-size: 200%;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            word-spacing: 4px;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .result {
+            color: Black;
+            font-family: 'Lato:ital';
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="title1">USER DATA</h1>
+        <div class='hero-text'>
+            <br><br>
+            <h2 class='result'>{{data}}</h2>
+        </div>
+    </header>
+</body>
+</html>
